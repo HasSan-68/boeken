@@ -9,6 +9,7 @@
         <thead>
             <tr>
                 <th>Id</th>
+                <th>boek_id</th>
                 <th>Discription</th>
                 <th>Name</th>
                 <th>actions</th>
@@ -18,6 +19,7 @@
         {% for review in reviews %}
             <tr>
                 <td>{{ review.id }}</td>
+                <td>{{ review.Boekid }}</td>
                 <td>{{ review.discription }}</td>
                 <td>{{ review.name }}</td>
                 <td>
